@@ -1,2 +1,147 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerciane Sousa de Oliveira Nunes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url(telafundo.PNG);
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+
+        }
+
+        landingpage {
+            background-color: rgb(14, 10, 34);
+            width: 400px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        }
+
+        .foto-perfil {
+            width: 120px;
+            height: 120px;
+            border-radius: 70%;
+            object-fit: cover;
+            border: 3px solid #8685c4;
+            display: block;
+            margin: 0 auto 15px auto;
+        }
+
+        h1 {
+            text-align: center;
+            margin: 10px 0;
+        }
+
+        .contato {
+            text-align: center;
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+
+        section {
+            margin-bottom: 15px;
+        }
+
+        h2 {
+            font-size: 16px;
+            color: #333;
+            margin-bottom: 5px;
+        }
+
+        p, li {
+            font-size: 14px;
+            color: #555;
+            margin: 3px 0;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        strong {
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <div class="Landing Page">
+        <img src="img.png" alt="minha foto" class="foto-perfil">
+        <h1>Gerciane Sousa de Oliveira Nunes</h1>
+        <div class="contato">
+            <p>Apaixonada por transformar dados em soluções.</p>
+            <p>Especialista em excel e em contante evolução no Power BI.</p>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre mim</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#extras">Extras</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Corpo Principal -->
+    <main>
+        <!-- Sobre Mim -->
+        <section id="sobre">
+            <h2>Sobre Mim</h2>
+            <p>Sou estudante de Análise e Desenvolvimento de Sistemas e trabalho na área de Inteligência Comercial na Dellys Food Service.</p>
+<p>Tenho grande interesse por Análise de Dados e Business Intelligence, áreas nas quais busco constantemente me desenvolver e aplicar meus conhecimentos para gerar insights que apoiem a tomada de decisões estratégicas.</p>
+<P>Atualmente, estudo desenvolvimento web e ferramentas voltadas à análise de dados, combinando habilidades técnicas com pensamento analítico.</P>
+        </section>
+
+        <!-- Habilidades -->
+        <section id="habilidades">
+            <h2>Habilidades</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript básico</li>
+                <li>Pouwer BI</li>
+            </ul>
+        </section>
+
+        <!-- Projetos -->
+        <section id="projetos">
+            <h2>Projetos</h2>
+
+            <article>
+                <h3>Portfólio Pessoal</h3>
+                <p>Um site responsivo para apresentar meus projetos e experiências. Desenvolvido com HTML e CSS puro.</p>
+            </article>
+
+            <article>
+                <h3>App de Lista de Tarefas</h3>
+                <p>Aplicativo web simples para criar e gerenciar tarefas diárias. Desenvolvido com HTML, CSS e JavaScript básico.</p>
+            </article>
+        </section>
+    </main>
+
+    <!-- Informações Extras -->
+    <aside id="extras">
+        <h2>Mais sobre mim</h2>
+        <p>✨ Gosto de música, jogos e tecnologia.</p>
+        <p>🔗 Me acompanhe nas redes sociais:</p>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/gerciane-sousa-5576861b4?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank">LinkedIn</a></li>
+            <li><a href="https://www.instagram.com/ge_soousa/?igsh=MWJ5MWZmYWp5NnBodA%3D%3D&utm_source=qr#" target="_blank">Instagram</a></li>
+        </ul>
+    </aside>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>Entre em contato: gerciane.sousa.oliveira@gmail.com</p>
+        <p>© 2025 Gerciane Sousa de Oliveira Nunes</p>
+<body>
+    
+<html>
